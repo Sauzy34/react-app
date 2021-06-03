@@ -1,0 +1,12 @@
+.DS_STORE
+bin
+dist
+lib
+logs
+node_modules
+coverage
+shared-javascript/node_modules
+package-lock.json
+yarn-error.log
+*.env
+bundle-stats.json

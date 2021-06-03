@@ -1,0 +1,56 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.renderIndentGuides": true,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.prettier": true
+  },
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript"],
+  "editor.cursorBlinking": "phase",
+  "explorer.openEditors.visible": 0,
+  "javascript.validate.enable": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bin": true
+  },
+  "git.confirmSync": false,
+  "javascript.format.enable": false,
+  "files.autoSave": "off",
+  "git.ignoreLegacyWarning": true,
+  "extensions.ignoreRecommendations": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "editor.foldingStrategy": "indentation",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.snippetSuggestions": "top",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.fontAliasing": "antialiased",
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.largeFileOptimizations": false,
+  "window.zoomLevel": 1,
+  "redhat.telemetry.enabled": false
+}

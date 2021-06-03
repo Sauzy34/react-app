@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "pages/*": ["src/pages/*"],
+      "images/*": ["src/images/*"],
+      "context/*": ["src/context/*"],
+      "utils/*": ["src/utils/*"],
+      "Constants/*": ["src/constants/*"],
+      "API/*": ["src/api/*"],
+      "hooks/*": ["src/hooks/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
